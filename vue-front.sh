@@ -2,10 +2,10 @@
 WORK_DIR "/home/projects/vue-front2"
 CD $WORK_DIR
 echo "先清除老代码"
-git reset --hard origin/main
+git reset --hard origin/mater
 git clean -f
 echo "在拉去新代码"
-git pull origin main
+git pull origin master
 echo "编译"
 npm run build
 echo "开始构建镜像"
