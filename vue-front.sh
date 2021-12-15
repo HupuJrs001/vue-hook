@@ -15,6 +15,6 @@ docker stop vue-front-container
 echo "删除酒容器"
 docker rm vue-front-container
 echo "创建新勇气"
-docker run -p 8080:80 --name vue-front-container -d vue-front:1.0
+docker run -p 8000:80 --name vue-front-container -d vue-front:1.0
 
 
