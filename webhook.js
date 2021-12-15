@@ -4,7 +4,7 @@ function sign(body){
 
 }
 let server = http.createServer(function(req,res){
-    console.log('req',req.method,req.url)
+    console.log('req2',req.method,req.url)
   if(req.method =='POST' && req.url=='/webhook'){
 
        res.setHeader('Content-Type','application/json');
